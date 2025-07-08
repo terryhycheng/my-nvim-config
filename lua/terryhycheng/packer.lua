@@ -55,4 +55,34 @@ use {
 use 'nvim-tree/nvim-web-devicons' -- OPTIONAL: for file icons
 use 'lewis6991/gitsigns.nvim' -- OPTIONAL: for git status
 use 'romgrk/barbar.nvim'
+use {
+    'nvim-tree/nvim-tree.lua',
+    requires = {
+        'nvim-tree/nvim-web-devicons', -- optional, for file icons
+    },
+    config = function()
+        require('nvim-tree').setup {
+            -- your options here (see below)
+            view = {
+                width = 30,
+                side = 'left',
+                -- other view options
+            },
+            renderer = {
+                icons = {
+                    show = {
+                        git = true,
+                        folder = true,
+                        file = true,
+                        folder_arrow = true,
+                    },
+                },
+            },
+        }
+    end
+}
+use {
+    'akinsho/toggleterm.nvim',
+    tag = '*',  -- latest stable
+}
 end)
