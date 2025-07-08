@@ -1,3 +1,4 @@
+vim.o.clipboard = "unnamedplus"
 vim.opt.guicursor = ""
 
 vim.opt.nu = true
@@ -31,3 +32,10 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
 
 vim.diagnostic.config({ virtual_text = true })
+
+vim.opt.list = true
+vim.opt.listchars = {
+  tab = '› ',
+  eol = '¬',
+  trail = '⋅',
+}

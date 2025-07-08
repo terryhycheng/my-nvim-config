@@ -3,11 +3,14 @@ local lsp = require('lsp-zero')
 lsp.preset('recommended')
 
 -- Mason setup
-require('mason').setup({})
+require('mason').setup({
+    ensure_installed = { "delve" }
+})
 require('mason-lspconfig').setup({
-  handlers = {
-    lsp.default_setup,
-  },
+    handlers = {
+        lsp.default_setup,
+    },
+    ensure_installed = { "gopls" }
 })
 
 local cmp = require('cmp')
