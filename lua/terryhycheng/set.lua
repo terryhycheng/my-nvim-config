@@ -35,7 +35,11 @@ vim.diagnostic.config({ virtual_text = true })
 
 vim.opt.list = true
 vim.opt.listchars = {
-  tab = '› ',
-  eol = '¬',
-  trail = '⋅',
+	tab = "› ",
+	eol = "¬",
+	trail = "⋅",
 }
+
+vim.keymap.set("n", "<leader>f", function()
+	vim.lsp.buf.format({ async = true })
+end, { desc = "Format buffer" })
