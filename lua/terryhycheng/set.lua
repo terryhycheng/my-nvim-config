@@ -43,3 +43,7 @@ vim.opt.listchars = {
 vim.keymap.set("n", "<leader>f", function()
 	vim.lsp.buf.format({ async = true })
 end, { desc = "Format buffer" })
+
+-- views can only be fully collapsed with the global statusline
+vim.opt.laststatus = 3
+

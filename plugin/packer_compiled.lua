@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["avante.nvim"] = {
+    loaded = true,
+    path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/avante.nvim",
+    url = "https://github.com/yetone/avante.nvim"
+  },
   ["barbar.nvim"] = {
     loaded = true,
     path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/barbar.nvim",
@@ -88,6 +93,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  ["copilot.lua"] = {
+    loaded = true,
+    path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/copilot.lua",
+    url = "https://github.com/zbirenbaum/copilot.lua"
+  },
+  ["dressing.nvim"] = {
+    loaded = true,
+    path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/dressing.nvim",
+    url = "https://github.com/stevearc/dressing.nvim"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
@@ -99,6 +114,11 @@ _G.packer_plugins = {
     path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
+  ["img-clip.nvim"] = {
+    loaded = true,
+    path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/img-clip.nvim",
+    url = "https://github.com/HakonHarnes/img-clip.nvim"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
@@ -108,6 +128,19 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
+  },
+  ["lspsaga.nvim"] = {
+    load_after = {},
+    loaded = true,
+    needs_bufread = false,
+    path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/opt/lspsaga.nvim",
+    url = "https://github.com/nvimdev/lspsaga.nvim"
+  },
+  ["markview.nvim"] = {
+    config = { "\27LJ\2\n¬\1\0\0\5\0\t\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\a\0005\3\4\0005\4\3\0=\4\5\0034\4\0\0=\4\6\3=\3\b\2B\0\2\1K\0\1\0\fpreview\1\0\2\fpreview\0\15max_length\3üç\6\20ignore_buftypes\14filetypes\1\0\2\14filetypes\0\20ignore_buftypes\0\1\3\0\0\rmarkdown\vAvante\nsetup\rmarkview\frequire\0" },
+    loaded = true,
+    path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/markview.nvim",
+    url = "https://github.com/OXY2DEV/markview.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
@@ -135,6 +168,11 @@ _G.packer_plugins = {
     path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/none-ls.nvim",
     url = "https://github.com/nvimtools/none-ls.nvim"
   },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -146,7 +184,7 @@ _G.packer_plugins = {
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
-    config = { "\27LJ\2\n”\1\0\0\6\0\f\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\t\0005\4\a\0005\5\6\0=\5\b\4=\4\n\3=\3\v\2B\0\2\1K\0\1\0\rrenderer\nicons\1\0\1\nicons\0\tshow\1\0\1\tshow\0\1\0\4\17folder_arrow\2\tfile\2\bgit\2\vfolder\2\tview\1\0\2\tview\0\rrenderer\0\1\0\2\tside\tleft\nwidth\3\30\nsetup\14nvim-tree\frequire\0" },
+    config = { "\27LJ\2\n”\1\0\0\6\0\f\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\t\0005\4\a\0005\5\6\0=\5\b\4=\4\n\3=\3\v\2B\0\2\1K\0\1\0\rrenderer\nicons\1\0\1\nicons\0\tshow\1\0\1\tshow\0\1\0\4\vfolder\2\tfile\2\bgit\2\17folder_arrow\2\tview\1\0\2\rrenderer\0\tview\0\1\0\2\tside\tleft\nwidth\3\30\nsetup\14nvim-tree\frequire\0" },
     loaded = true,
     path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/nvim-tree/nvim-tree.lua"
@@ -170,6 +208,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["render-markdown.nvim"] = {
+    loaded = true,
+    path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/render-markdown.nvim",
+    url = "https://github.com/MeanderingProgrammer/render-markdown.nvim"
+  },
+  ["snacks.nvim"] = {
+    loaded = true,
+    path = "/Users/hoyincheng/.local/share/nvim/site/pack/packer/start/snacks.nvim",
+    url = "https://github.com/folke/snacks.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
@@ -215,18 +263,27 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: nvim-tree.lua
-time([[Config for nvim-tree.lua]], true)
-try_loadstring("\27LJ\2\n”\1\0\0\6\0\f\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\t\0005\4\a\0005\5\6\0=\5\b\4=\4\n\3=\3\v\2B\0\2\1K\0\1\0\rrenderer\nicons\1\0\1\nicons\0\tshow\1\0\1\tshow\0\1\0\4\17folder_arrow\2\tfile\2\bgit\2\vfolder\2\tview\1\0\2\tview\0\rrenderer\0\1\0\2\tside\tleft\nwidth\3\30\nsetup\14nvim-tree\frequire\0", "config", "nvim-tree.lua")
-time([[Config for nvim-tree.lua]], false)
 -- Config for: neovim
 time([[Config for neovim]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0", "config", "neovim")
 time([[Config for neovim]], false)
+-- Config for: markview.nvim
+time([[Config for markview.nvim]], true)
+try_loadstring("\27LJ\2\n¬\1\0\0\5\0\t\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\a\0005\3\4\0005\4\3\0=\4\5\0034\4\0\0=\4\6\3=\3\b\2B\0\2\1K\0\1\0\fpreview\1\0\2\fpreview\0\15max_length\3üç\6\20ignore_buftypes\14filetypes\1\0\2\14filetypes\0\20ignore_buftypes\0\1\3\0\0\rmarkdown\vAvante\nsetup\rmarkview\frequire\0", "config", "markview.nvim")
+time([[Config for markview.nvim]], false)
+-- Config for: nvim-tree.lua
+time([[Config for nvim-tree.lua]], true)
+try_loadstring("\27LJ\2\n”\1\0\0\6\0\f\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\t\0005\4\a\0005\5\6\0=\5\b\4=\4\n\3=\3\v\2B\0\2\1K\0\1\0\rrenderer\nicons\1\0\1\nicons\0\tshow\1\0\1\tshow\0\1\0\4\vfolder\2\tfile\2\bgit\2\17folder_arrow\2\tview\1\0\2\rrenderer\0\tview\0\1\0\2\tside\tleft\nwidth\3\30\nsetup\14nvim-tree\frequire\0", "config", "nvim-tree.lua")
+time([[Config for nvim-tree.lua]], false)
 -- Config for: trouble.nvim
 time([[Config for trouble.nvim]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
 time([[Config for trouble.nvim]], false)
+-- Load plugins in order defined by `after`
+time([[Sequenced loading]], true)
+vim.cmd [[ packadd nvim-lspconfig ]]
+vim.cmd [[ packadd lspsaga.nvim ]]
+time([[Sequenced loading]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
